@@ -1,7 +1,7 @@
 function fun() {
-    alert("我不想看见你在哭");
-}
-
-function fum() {
-    confirm("你是男孩吗？");
+    if (confirm("你今年多少岁？")) {
+        document.getElementById("message").innerText = "我想看见她哭笑不得？"
+    }else{
+        document.getElementById('message').innerText = "那你就笑吧，有一天我笑给你看。"
+    }
 }
